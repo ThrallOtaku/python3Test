@@ -9,6 +9,8 @@ import matplotlib.pyplot as plt
 
 loandata = pd.DataFrame(pd.read_excel('loan_data.xlsx'))
 
+print(loandata)
+
 # 按月汇总贷款金额及利息
 loan_x = loandata['loan_amnt']
 loan_y = loandata['total_rec_int']
