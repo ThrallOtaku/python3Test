@@ -16,5 +16,5 @@ class Transaction:
 
 
 if __name__ == "__main__":  # 单独模块测试
-    t1 = Transaction("yincheng", "donghai", 0.00000000001)  # 交易类，后期需要整合公钥私钥
+    t1 = Transaction("yincheng", "donghai", 0.1)  # 交易类，后期需要整合公钥私钥
     print(t1)
